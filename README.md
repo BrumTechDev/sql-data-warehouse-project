@@ -9,7 +9,7 @@ The architecture follows the **Medallion Architecture** pattern, with **Bronze**
 
 ![Data Architecture](docs/data_architecture.drawio.png)
 
-- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files (ERP and CRM) into a SQL Server database.
+- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files (ERP and CRM) into a PostgreSQL database.
 - **Silver Layer**: Applies data cleansing, standardization, and normalization to prepare the data for analysis.
 - **Gold Layer**: Houses business-ready data, modeled into a star schema for reporting and analytics.
 
@@ -34,8 +34,8 @@ This project covers:
 ## 🛠️ Tools & Resources
 
 - **Datasets**: ERP and CRM source data (CSV files) — see `datasets/`
-- **SQL Server Express**: Database engine hosting the warehouse
-- **SQL Server Management Studio (SSMS)**: GUI for managing and querying the database
+- **PostgreSQL**: Database engine hosting the warehouse
+- **pgAdmin**: GUI for managing and querying the database
 - **Draw.io**: Used to design the architecture, data flow, and data model diagrams
 - **Git & GitHub**: Version control and project tracking
 
@@ -44,7 +44,7 @@ This project covers:
 ### Building the Data Warehouse (Data Engineering)
 
 **Objective**
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 **Specifications**
 - **Data Sources**: Import data from two source systems (ERP and CRM), provided as CSV files.
