@@ -7,7 +7,7 @@ This project is my hands-on implementation of a modern data warehousing and anal
 
 The architecture follows the **Medallion Architecture** pattern, with **Bronze**, **Silver**, and **Gold** layers:
 
-![Data Architecture](docs/data_architecture.drawio.png)
+<img width="927" height="492" alt="image" src="https://github.com/user-attachments/assets/5ade4998-dca0-4aaa-a200-51671d9f5a8e" />
 
 - **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files (ERP and CRM) into a PostgreSQL database.
 - **Silver Layer**: Applies data cleansing, standardization, and normalization to prepare the data for analysis.
