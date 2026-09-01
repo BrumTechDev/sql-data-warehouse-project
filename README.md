@@ -72,12 +72,7 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                                # Project documentation and architecture details
-│   ├── etl.drawio                       # Draw.io file showing ETL techniques and methods
-│   ├── data_architecture.drawio         # Draw.io file showing the project's architecture
 │   ├── data_catalog.md                  # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                 # Draw.io file for the data flow diagram
-│   ├── data_models.drawio               # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md            # Naming guidelines for tables, columns, and files
 │
 ├── scripts/                             # SQL scripts for ETL and transformations
 │   ├── bronze/                          # Scripts for extracting and loading raw data
@@ -97,11 +92,11 @@ data-warehouse-project/
 This repository is a work in progress — I'm building it step by step and updating this README as each stage lands:
 
 - [x] Define architecture (Medallion: Bronze, Silver, Gold)
-- [ ] Bronze layer: raw ingestion from ERP/CRM CSVs
-- [ ] Silver layer: cleansing, standardization, normalization
-- [ ] Gold layer: star schema, business-ready views
-- [ ] Data catalog & naming conventions documentation
-- [ ] SQL-based analytics & reporting
+- [x] Bronze layer: raw ingestion from ERP/CRM CSVs
+- [x] Silver layer: cleansing, standardization, normalization
+- [x] Gold layer: star schema, business-ready views
+- [x] Data catalog & naming conventions documentation
+- [x] SQL-based analytics & reporting
 
 ## 🛡️ License
 
