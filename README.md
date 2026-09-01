@@ -98,6 +98,9 @@ This repository is a work in progress — I'm building it step by step and updat
 - [x] Data catalog & naming conventions documentation
 - [x] SQL-based analytics & reporting
 
+## 📝 Project Notes
+Detailed notes and planning process for this project are available on https://app.notion.com/p/SQL-Data-Warehouse-Project-ac97c95ba3e383cfb5a981ccda50085e?source=copy_link.
+
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to explore, learn from, and share this project with proper attribution.
